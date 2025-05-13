@@ -1,14 +1,17 @@
 # Drone-Delivery-Route-Optimisation
 
-The commercial adoption of drones for last-mile delivery is revolutionising logistics by enabling faster deliveries and significantly lowering operational costs (Kapustina et al., 2021). However, the large-scale adoption of drone delivery presents several challenges, including limitations in battery life and payload capacity (Kardasz et al., 2016). To maximise operational efficiency, optimal delivery routes are essential. This can be achieved through modern optimisation techniques, such as Genetic Algorithms (GAs).
+The commercial adoption of drones for last-mile delivery is revolutionising logistics by enabling faster deliveries and significantly lowering operational costs (Kapustina et al., 2021). However, the large-scale adoption of drone delivery presents several challenges, including limitations in battery life and payload capacity (Kardasz et al., 2016). To maximise operational efficiency, optimal delivery routes are essential. This project demonstrates how drone delivery routes can be optimised through modern optimisation techniques, such as Genetic Algorithms (GAs).
 
 This project implements 3 variations of a GA: a standard GA, a 2-opt local search GA, and a selective 2-opt local search GA.
 * code  ....!! *
 
 # 🔍 Key Findings:
-- ...
-- ...
-- ...
+- Statistically significant differences were observed in the performances of the 3 GA variations through a statistical ANOVA test.
+- Overall, the selective 2-opt local search GA demonstrated the best average performance, highlighting its ability to effectively optimise drone delivery routes. 
+- The standard GA consistently underperformed, demonstrating the inability of a standalone GA to optimise drone delivery routes. 
+- The 2-opt local search GA delivered significant improvements, showcasing strong optimisation capabilities for drone delivery routing. However, it incurred a high computational cost and was still outperformed by the selective 2-opt local search GA.
+
+These findings reinforce the ability of hybrid GAs in solving real-world logistical problems and highlight the importance of balancing solution quality and computational efficiency. 
 
 # 🌐 Dataset
 An artificially generated dataset of euclidean distances between 1 depot and 40 client locations across Athens, Greece (Athanasiadis, 2023).
