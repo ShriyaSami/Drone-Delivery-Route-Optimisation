@@ -2,8 +2,7 @@
 
 The commercial adoption of drones for last-mile delivery is revolutionising logistics by enabling faster deliveries and significantly lowering operational costs (Kapustina et al., 2021). However, the large-scale adoption of drone delivery presents several challenges, including limitations in battery life and payload capacity (Kardasz et al., 2016). To maximise operational efficiency, optimal delivery routes are essential. This project demonstrates how drone delivery routes can be optimised through modern optimisation techniques, such as Genetic Algorithms (GAs).
 
-This project implements 3 variations of a GA: a standard GA, a 2-opt local search GA, and a selective 2-opt local search GA.
-* code  ....!! *
+This project implements 3 variations of a GA: a standard GA, a 2-opt local search GA, and a selective 2-opt local search GA. The R files for the 3 implementations have been uploaded. 
 
 # 🔍 Key Findings:
 - Statistically significant differences were observed in the performances of the 3 GA variations through a statistical ANOVA test.
