@@ -7,9 +7,9 @@ This project implements 3 variations of a GA: a standard GA, a 2-opt local searc
 
 # 🔍 Key Findings:
 - Statistically significant differences were observed in the performances of the 3 GA variations through a statistical ANOVA test.
-- Overall, the selective 2-opt local search GA demonstrated the best average performance, highlighting its ability to effectively optimise drone delivery routes. 
-- The standard GA consistently underperformed, demonstrating the inability of a standalone GA to optimise drone delivery routes. 
-- The 2-opt local search GA delivered significant improvements, showcasing strong optimisation capabilities for drone delivery routing. However, it incurred a high computational cost and was still outperformed by the selective 2-opt local search GA.
+- Overall, the selective 2-opt local search GA demonstrated the best average performance, highlighting its ability to effectively optimise drone delivery routes. 🚁  
+- The standard GA consistently underperformed, demonstrating the inability of a standalone GA to optimise drone delivery routes. 📉 
+- The 2-opt local search GA delivered significant improvements, showcasing strong optimisation capabilities for drone delivery routing. However, it incurred a high computational cost and was still outperformed by the selective 2-opt local search GA. 📈
 
 These findings reinforce the ability of hybrid GAs in solving real-world logistical problems and highlight the importance of balancing solution quality and computational efficiency. 
 
